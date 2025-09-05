@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantLens - AI-Powered Trading Made Simple</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://getlaunchlist.com/js/widget-diy.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.jpg" alt="QuantLens" class="logo-img">
+                <span class="brand-name">QuantLens</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#demo" class="nav-link">Demo</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#waitlist" class="nav-link cta-nav">Join Waitlist</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+  <div class="hero-background">
+    <div class="floating-element float-1"></div>
+    <div class="floating-element float-2"></div>
+    <div class="floating-element float-3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-text"> The Future of Trading is Here</span>
+    </div>
+    <h1 class="hero-title">
+      Smarter Trades, 
+      <span class="gradient-text">Zero Code</span>
+    </h1>
+    <p class="hero-subtitle">
+      Meet QuantLens, your AI copilot for trading. Describe strategies in plain English, 
+      backtest instantly, and let AI monitor risk 24/7. Professional-grade trading tools, now built for everyone.
+    </p>
+    <div class="hero-cta">
+      <button class="btn btn-primary" onclick="scrollToWaitlist()">
+        <span class="btn-text">Join the Revolution</span>
+        <div class="btn-arrow">→</div>
+      </button>
+      <button class="btn btn-secondary" onclick="scrollToDemo()">
+        <span class="btn-text">Watch the Demo</span>
+        <div class="play-icon">▶</div>
+      </button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-number">10+</div>
+        <div class="stat-label">Traders on Waitlist</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">95%</div>
+        <div class="stat-label">Strategy Accuracy</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">24/7</div>
+        <div class="stat-label">AI Risk Guard</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Problem Section -->
+   <section class="problem-section">
+  <div class="container">
+    <div class="problem-content">
+      <h2 class="section-title">Why Most Traders Lose</h2>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon">💻</div>
+          <h3>Too Much Code</h3>
+          <p>Existing platforms demand programming skills that most traders don’t have.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">📊</div>
+          <h3>No Real Validation</h3>
+          <p>Strategies are often untested, leaving traders blind to historical performance.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">⚠️</div>
+          <h3>Hidden Risks</h3>
+          <p>Volatile markets can crush portfolios without proper AI-powered risk checks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="solution-section">
+  <div class="container">
+    <div class="solution-header">
+      <h2 class="section-title">Your AI Trading Partner</h2>
+      <p class="section-subtitle">From idea → backtest → execution, in minutes</p>
+    </div>
+    
+    <div class="features-showcase">
+      <div class="feature-large">
+        <div class="feature-content">
+          <div class="feature-badge">AI Strategy Builder</div>
+          <h3>Talk, Don’t Code</h3>
+          <p>Say: <i>"Buy NIFTY when RSI < 30 and volume spikes"</i> — our AI builds the rules instantly. 
+          No code. No complexity. Just your idea, turned into action.</p>
+          <ul class="feature-benefits">
+            <li>✓ Instant strategy creation</li>
+            <li>✓ Natural language interface</li>
+            <li>✓ Learn as you trade with AI explanations</li>
+          </ul>
+        </div>
+        <div class="feature-visual">
+          <div class="chat-mockup">
+            <div class="chat-message user">
+              "Enter when RSI < 30 and volume spikes above 2x average"
+            </div>
+            <div class="chat-message ai">
+              ✓ Strategy created! Ready to backtest against 10 years of NIFTY data?
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card hover-lift">
+          <div class="feature-icon gradient-bg-1">📈</div>
+          <h4>Smart Backtesting</h4>
+          <p>Simulate your ideas on years of historical data — crashes, rallies, and more.</p>
+        </div>
+
+        <div class="feature-card hover-lift">
+          <div class="feature-icon gradient-bg-2">🛡️</div>
+          <h4>AI Risk Guard</h4>
+          <p>Real-time risk analysis, hedging suggestions, and automatic stop-loss insights.</p>
+        </div>
+
+        <div class="feature-card hover-lift">
+          <div class="feature-icon gradient-bg-3">👁️</div>
+          <h4>24/7 AI Monitoring</h4>
+          <p>An AI copilot that never sleeps, scanning trades and market shifts around the clock.</p>
+        </div>
+
+        <div class="feature-card hover-lift">
+          <div class="feature-icon gradient-bg-4">📝</div>
+          <h4>AI Analytics</h4>
+          <p>Every trade is logged, analyzed, and explained — helping you spot patterns and biases.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo-section">
+  <div class="container">
+    <h2 class="section-title">See QuantLens in Action</h2>
+    <p class="section-subtitle">Watch how AI transforms trading complexity into simple conversations</p>
+
+    <div class="video-container">
+      <!-- YouTube Embed -->
+      <iframe id="demoVideo" class="video-embed"
+        src="https://www.youtube.com/embed/N4JDlSTMOck?si=qfCSDmItHbY_gflf"
+        title="QuantLens Demo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="demo-stats">
+      <div class="demo-stat">
+        <span class="demo-number">30sec</span>
+        <span class="demo-label">Strategy Creation</span>
+      </div>
+      <div class="demo-stat">
+        <span class="demo-number">5min</span>
+        <span class="demo-label">Full Backtest</span>
+      </div>
+      <div class="demo-stat">
+        <span class="demo-number">0</span>
+        <span class="demo-label">Lines of Code</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Social Proof Section -->
+  
+    <!-- Team Section -->
+   <section id="team" class="team-section">
+  <div class="container">
+    <h2 class="section-title">The Team Behind QuantLens</h2>
+    <p class="section-subtitle">IIT Bombay innovators blending AI, finance, and trading expertise</p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder">AI</div>
+                    </div>
+                    <h4>Sathwik</h4>
+                    <p class="team-role">AI Strategy Architect</p>
+                    <p class="team-bio">Passionate about democratizing finance through AI innovation</p>
+                    <div class="team-tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">NLP</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder">RM</div>
+                    </div>
+                    <h4>Rithvik</h4>
+                    <p class="team-role">Risk Modeling Expert</p>
+                    <p class="team-bio">Building smarter, safer trading systems for everyone</p>
+                    <div class="team-tags">
+                        <span class="tag">Risk Analysis</span>
+                        <span class="tag">Quantitative Finance</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder">SK</div>
+                    </div>
+                    <h4>Dinesh</h4>
+                    <p class="team-role">Tech Strategist</p>
+                    <p class="team-bio">Bridging algorithms with real-world trading needs</p>
+                    <div class="team-tags">
+                        <span class="tag">System Architecture</span>
+                        <span class="tag">Trading Systems</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder">VS</div>
+                    </div>
+                    <h4>Saanvi</h4>
+                    <p class="team-role">Platform Engineer</p>
+                    <p class="team-bio">Crafting scalable systems that traders love to use</p>
+                    <div class="team-tags">
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">Infrastructure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Waitlist Section -->
+<section id="waitlist">
+  <div class="container">
+    <div class="waitlist-content">
+      <div class="waitlist-header">
+        <h2 class="section-title">Join the Trading Revolution</h2>
+        <p class="section-subtitle">
+          Be among the first to experience AI-powered trading. No coding required, just intelligent strategies.
+        </p>
+      </div>
+
+      <div class="waitlist-form-container">
+        <!-- Compatible GetLaunchList Form -->
+        <form class="launchlist-form" action="https://getlaunchlist.com/s/6um2Kh" method="POST">
+          <div class="form-group">
+            <input name="name" type="text" placeholder="Your name" required class="form-input">
+          </div>
+          <div class="form-group">
+            <input name="email" type="email" placeholder="Enter your email address" required class="form-input">
+          </div>
+          <!-- If you want experience level back, add name -->
+          <!--
+          <div class="form-group">
+            <select name="experience" class="form-input">
+              <option value="">Trading Experience Level</option>
+              <option>Beginner (0-1 years)</option>
+              <option>Intermediate (2-5 years)</option>
+              <option>Advanced (5+ years)</option>
+              <option>Professional Trader</option>
+            </select>
+          </div>
+          -->
+          <button type="submit" class="btn btn-waitlist">
+            <span class="btn-text">Secure My Spot</span>
+            <div class="btn-arrow">→</div>
+          </button>
+        </form>
+
+        <div class="waitlist-benefits">
+          <div class="benefit-item">
+            <span class="benefit-icon">🎯</span>
+            <span class="benefit-text">Early access to AI strategies</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">💎</span>
+            <span class="benefit-text">Founder's pricing (50% off)</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">📚</span>
+            <span class="benefit-text">Exclusive trading masterclasses</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="QuantLens" class="logo-img">
+          <span class="brand-name">QuantLens</span>
+        </div>
+        <p class="footer-tagline">Making advanced trading strategies accessible to everyone</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h5>Contact Us</h5>
+          <a href="mailto:sathwikitthagoni.com">sathwikitthagoni.com</a>
+          <a href="mailto:dinesh050106@gmail.com">dinesh050106@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="footer-bottom">
+      <p>&copy; QuantLens</p>
+    </div> -->
+  </div>
+</footer>
+
+
+    <script>
+        // Smooth scrolling for navigation
+        function scrollToWaitlist() {
+            document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function scrollToDemo() {
+            document.getElementById('demo').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission
+        // document.getElementById('waitlistForm').addEventListener('submit', function(e) {
+        //     e.preventDefault();
+        //     // Add form submission logic here
+        //     alert('Thank you for joining our waitlist! We\'ll be in touch soon.');
+        // });
+
+        // Add entrance animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animations
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
